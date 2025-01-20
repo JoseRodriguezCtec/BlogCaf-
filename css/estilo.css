@@ -136,3 +136,42 @@ img {
   font-size: 1.8rem;
   color: var(--ColorPrincipalCaramelo);
 }
+
+@media (min-width: 768px) {
+  .contenido-principal {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+  }
+}
+
+.entrada {
+  border-bottom: 1px solid var(--ColorSecundarioPetroleo);
+  margin-bottom: 2rem;
+}
+
+.entrada:last-of-type {
+  border: none;
+  margin-bottom: 0;
+}
+.boton {
+  display: block;
+  font-family: var(--fuenteSecundaria);
+  background-color: var(--ColorPrincipalCaramelo);
+  color: var(--FondoPrincipalAmarillo);
+  text-align: center;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .boton {
+    display: inline-block;
+  }
+}
+
+.boton-primario {
+  background-color: var(--ColorTerciarioCoral);
+}
