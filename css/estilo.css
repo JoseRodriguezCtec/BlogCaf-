@@ -1,0 +1,67 @@
+:root {
+  --fuentePrincipal: "Raleway", sans-serif;
+  --fuenteSecundaria: "Lora", sans-serif;
+
+  --FondoPrincipalAmarillo: #fff4d9;
+  --ColorPrincipalCaramelo: #eba65c;
+  --ColorSecundarioPetroleo: #6c7a89;
+  --ColorTerciarioCoral: #f28c8c;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--fuentePrincipal);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/*GLOBALES**/
+
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 95%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  font-family: var(--fuenteSecundaria);
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+h4 {
+  font-size: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*HEADER**/
