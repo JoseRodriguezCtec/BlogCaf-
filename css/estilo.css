@@ -66,7 +66,7 @@ img {
   padding: 0;
 }
 .no-padding {
-  padding: 0;
+  padding: 4;
 }
 
 .centrar-texto {
@@ -174,4 +174,57 @@ img {
 
 .boton-primario {
   background-color: var(--ColorTerciarioCoral);
+}
+
+.boton-secundario {
+  background-color: var(--ColorTerciarioCoral);
+}
+
+.cursos {
+  list-style: none;
+}
+
+.widget_curso {
+  border-bottom: 1px solid var(--ColorSecundarioPetroleo);
+}
+
+.widget_curso:last-of-type {
+  border: none;
+  margin-bottom: 0;
+}
+
+.widget_curso_laber {
+  font-family: var(--fuentePrincipal);
+  font-weight: bold;
+}
+
+.widget_curso_info {
+  font-weight: normal;
+}
+
+.widget_curso_laber,
+.widget_curso_info {
+  padding: 1rem;
+}
+.footer {
+  padding-bottom: 3rem;
+  margin-top: 4rem;
+  background-color: var(--ColorSecundarioPetroleo);
+}
+
+/**SOBRE NOSOTROS**/
+
+.sobre_nosotros {
+  background-color: var(--FondoPrincipalAmarillo);
+}
+
+@media (min-width: 768px) {
+  .sobre_nosotros {
+    display: flex;
+    gap: 2rem;
+  }
+  .sobre_nosotros_img,
+  .sobre_nosotros_texto {
+    flex-basis: 50%;
+  }
 }
