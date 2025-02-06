@@ -228,3 +228,42 @@ img {
     flex-basis: 50%;
   }
 }
+
+/**CURSOS**/
+
+.curso {
+  border-bottom: 1px solid var(--ColorSecundarioPetroleo);
+  padding: 3rem;
+}
+@media (min-width: 768px) {
+  .curso {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+.curso:last-of-type {
+  border: none;
+}
+.curso_laber {
+  font-family: var(--fuentePrincipal);
+  font-weight: bold;
+}
+
+.curso_info {
+  font-weight: normal;
+}
+
+.curso_laber,
+.curso_info {
+  padding: 1rem;
+}
+
+/**contacto**/
+
+.contacto-bg {
+  background-image: url("../img/contacto.jpg");
+  height: 48rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
